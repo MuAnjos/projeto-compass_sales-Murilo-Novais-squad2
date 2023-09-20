@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856272008657",
+    "project_id": "compass-sales-2419d",
+    "storage_bucket": "compass-sales-2419d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856272008657:android:c294c230d34668a3e79cf0",
+        "android_client_info": {
+          "package_name": "com.compass_sales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuS5Q0HwP188Dj3PJpN7rqmmu4sQNSFtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
