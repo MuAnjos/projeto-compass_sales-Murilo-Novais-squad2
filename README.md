@@ -1,79 +1,137 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+![Logo_CompassoUOL_Positivo](https://github.com/MuAnjos/projeto-compass_sales-Murilo-Novais-squad2/assets/92558491/5b77a951-09d7-4679-9985-c5e0bef76d1e)
 
-# Getting Started
+# Compass UOL Scholarship Program - Week 08 Challenge
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Welcome to the repository for the Week 08 Challenge of the Compass UOL Scholarship Program. In this challenge, we were tasked with the creation of a mobile application with signup, login, forgot password, and home page screens and functionalities.
 
-## Step 1: Start the Metro Server
+## Challenge Description
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+The Week 08 Challenge of the Compass UOL Scholarship Program involves the creation of a mobile application with four primary screens and corresponding functionalities:
 
-To start Metro, run the following command from the _root_ of your React Native project:
+1. **Signup Screen**: Users should be able to register for the application by providing their name, email address, and a secure password. Proper validation should be implemented to ensure data accuracy and security.
 
-```bash
-# using npm
-npm start
+2. **Login Screen**: Registered users can log in to the application using their email and password. Authentication should be performed securely, and error handling should be in place to handle cases such as incorrect passwords or non-existent users.
 
-# OR using Yarn
-yarn start
-```
+3. **Forgot Password Screen**: Users who have forgotten their passwords should have the option to reset them. The application should allow users to provide their email address, and upon submission, a password reset email should be sent to that address. Proper validation and error handling are crucial in this functionality.
 
-## Step 2: Start your Application
+4. **Home Page Screen**: After successful authentication, users should be redirected to a home page or dashboard. This screen can include various features and information, depending on the application's purpose. It should provide a smooth and engaging user experience.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Technologies Used
 
-### For Android
+In this challenge, I utilized the following technologies and tools:
 
-```bash
-# using npm
-npm run android
+- React Native CLI
+- React Navigation
+- Firebase Authentication
+- React Hook Form
+- Yup (for form validation)
+- Styled components
 
-# OR using Yarn
-yarn android
-```
+## Getting Started
 
-### For iOS
+To run this project locally or explore the code, follow these steps:
 
-```bash
-# using npm
-npm run ios
+1. Clone this repository to your local machine using the following command:
 
-# OR using Yarn
-yarn ios
-```
+   ```bash
+   git clone [repository URL]
+   ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+2. Navigate to the project directory:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   ```bash
+   cd compass_sales
+   ```
 
-## Step 3: Modifying your App
+3. Install the project dependencies:
 
-Now that you have successfully run the app, let's modify it.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+5. Start the development server:
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-## Congratulations! :tada:
+6. Open the project in your preferred development environment (e.g., Android Studio, Xcode, Expo Client) for testing on a simulator or a physical device.
 
-You've successfully run and modified your React Native App. :partying_face:
+## Screenshots
 
-### Now what?
+![49717feb-e8bc-4ae9-9068-5a39d6555186](https://github.com/MuAnjos/projeto-compass_sales-Murilo-Novais-squad2/assets/92558491/a5d2064e-6f9a-48dc-b1f9-bd712172e54e)
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+![8b0b09f2-b527-4c42-97f4-5ab026b93cb7](https://github.com/MuAnjos/projeto-compass_sales-Murilo-Novais-squad2/assets/92558491/bd70eae4-868a-478c-ae0d-0531557a0912)
 
-# Troubleshooting
+![6dacfc67-7a90-48a0-94d6-ccdfd292b2d1](https://github.com/MuAnjos/projeto-compass_sales-Murilo-Novais-squad2/assets/92558491/f8de498d-c29e-4a5c-870a-ad309b00bc51)
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+![ef662e9b-913b-4b34-97a7-1d44fb005100](https://github.com/MuAnjos/projeto-compass_sales-Murilo-Novais-squad2/assets/92558491/00644f70-f3ca-4057-8afd-e17220db11cf)
 
-# Learn More
+# Contributing
 
-To learn more about React Native, take a look at the following resources:
+I welcome contributions from anyone who is interested in improving and expanding this mobile application project. Whether you'd like to add new features, fix bugs, or create a more complete and complex home page, your contributions are highly appreciated.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Here's how you can contribute to this project:
+
+1. **Fork the Repository**: Start by forking this repository to your own GitHub account. This will create a copy of the project that you can work on independently.
+
+2. **Clone the Repository**: Clone your forked repository to your local development environment using the following command:
+
+   ```bash
+   git clone [your-fork-url]
+   ```
+
+3. **Create a Branch**: Create a new branch for your contributions. Naming your branch descriptively is helpful:
+
+   ```bash
+   git checkout -b feature/add-new-feature
+   ```
+
+4. **Make Changes**: Make the desired changes to the codebase, whether it's adding new functionality or enhancing the home page.
+
+5. **Test Your Changes**: Before submitting a pull request, make sure to thoroughly test your changes to ensure they work as expected.
+
+6. **Commit Your Changes**: Commit your changes with clear and concise commit messages:
+
+   ```bash
+   git commit -m "Add new feature: [brief description]"
+   ```
+
+7. **Push to Your Fork**: Push your changes to your forked repository:
+
+   ```bash
+   git push origin feature/add-new-feature
+   ```
+
+8. **Open a Pull Request**: Create a pull request from your forked repository to the original repository. Describe the changes you've made and provide any necessary context.
+
+9. **Review and Collaboration**: Your pull request will be reviewed by project maintainers. Feedback and discussions may take place to ensure the quality of the contributions.
+
+10. **Merge**: Once your changes are reviewed and approved, they will be merged into the main project.
+
+By contributing to this project, you'll have the opportunity to improve the application and collaborate with others. I encourage you to share your ideas, add new features, or create a more robust home page to make this application even better.
+
+Thank you for considering contributing to our project! Your contributions help make this project more valuable to our users.
+
+
+## Acknowledgments
+
+I extend my heartfelt thanks to the following individuals for their valuable contributions, support, and dedication to this project:
+
+Rafael Nascimento Colares: Your expertise, patience, helpfulness, and good humor have been one of the most fundamental pillars since I started this scholarship program, to you, I dedicate my most personal thanks, thank you <3.
+
+Juliane Valiati Maran: Without your words of motivation and support throughout the process I might not even be here anymore, thank you from the bottom of my heart.
+
+Thiago Schweder Souza: Your technical insights and commitment to excellence have been invaluable.
+
+Liliv Hana Vasconcelos: Your dedication to the project and attention to detail have not gone unnoticed.
+
+Jardel Bordignon:  Your technical insights and commitment to excellence have been invaluable.
+
+Israel Luiz de França Barberino: Last but not least, your unwavering support and enthusiasm helped this project to become a reality.
+
+We are immensely grateful for the hard work and dedication of each of these individuals. Their contributions have played a vital role in making this project what it is today.
